@@ -20,7 +20,8 @@
     "start": "nodemon src/index.ts",
     "build": "npx tsc",
     "test": "jasmine",
-    "jtest": "npm run build && npm run test --silent"
+    "jtest": "npm run build && npm run test --silent",
+    "lite": "lite-server"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
@@ -28,7 +29,8 @@
     "@types/node": "^17.0.14",
     "nodemon": "^2.0.15",
     "ts-node": "^10.4.0",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "lite-server": "^2.6.1"
   },
   "dependencies": {
     "express": "^4.17.3",
