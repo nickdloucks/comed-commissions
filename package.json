@@ -1,18 +1,18 @@
 {
-  "name": "my-proj-template",
+  "name": "comedical-commissions",
   "version": "1.0.0",
-  "description": "My preferred configs & packages for new projects",
+  "description": "Commissions calculation tool and statement generator",
   "main": "index.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nickdloucks/preferred-project-template.git"
+    "url": "git+https://github.com/nickdloucks/comed-commissions.git"
   },
   "keywords": [
-    "my-project-template"
+    "comedical-commissions"
   ],
   "author": "Nick Loucks",
   "bugs": {
-    "url": "https://github.com/nickdloucks/preferred-project-template/issues"
+    "url": "https://github.com/nickdloucks/comed-commissions/issues"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -36,6 +36,6 @@
     "jasmine": "^3.99.0",
     "jasmine-spec-reporter": "^7.0.0"
   },
-  "homepage": "https://github.com/nickdloucks/preferred-project-template#readme",
+  "homepage": "https://github.com/nickdloucks/comed-commissions#readme",
   "type": "module"
 }
