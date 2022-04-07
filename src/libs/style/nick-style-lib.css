@@ -77,7 +77,7 @@ a:active{
     color: var(--nick-lime, lime);
 }
 a:visited{
-    color: var(--nick-dk-gray, indigo);
+    color: var(--nick-orange, orange);
 }
 
 .good-button{
