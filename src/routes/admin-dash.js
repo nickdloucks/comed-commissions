@@ -1,9 +1,14 @@
 import { express } from "express";
+import dotenv from 'dotenv';
+
+const USERS = [ process.env.ADMIN_USER1 ];
+const PASSWORDS = [ process.env.ADMIN_USER1_PASSWORD ];
 
 let app = express();
 
 app.get('/views/admin-dash.html', (req, res)=>{
-    res.send('/views/admin-login.html');
+    res.send('/views/admin-login.html'); // this may cause an infinite loop of redirection... 
+    // need to find a way to block unauthorized access to the url besides just omitting a link in the homepage?
 });
     // middleware with authentication
     // this is where admin will set commissions parameters
