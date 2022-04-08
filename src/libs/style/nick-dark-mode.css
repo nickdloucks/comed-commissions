@@ -12,7 +12,7 @@ a{
 }
 
 a:hover{
-    color: var(--nick-dk-gray, #ffffff);
+    color: var(--nick-red, #ffffff);
 }
 
 .neutral-button{
