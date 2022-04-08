@@ -1,5 +1,5 @@
-import { express } from "express";
-import dotenv from 'dotenv';
+import 'dotenv/config';
+import express from "express";
 
 const USERS = [ process.env.ADMIN_USER1 ];
 const PASSWORDS = [ process.env.ADMIN_USER1_PASSWORD ];
