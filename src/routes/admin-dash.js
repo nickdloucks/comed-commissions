@@ -7,7 +7,13 @@ const PASSWORDS = [ process.env.ADMIN_USER1_PASSWORD ];
 let app = express();
 
 app.get('/views/admin-dash.html', (req, res)=>{
-    res.send('/views/admin-login.html'); // this may cause an infinite loop of redirection... 
+    let credentials = req.params;
+    if(USERS.includes(credentials.user) && (PASSWORDS[USERS.indexOf(credentials.user)] === credentials.password)){
+        res.send('/views/admin-dash.html');
+    }else{
+        res.send('/views/admin-login.html');
+    }
+     // Be sure not to cause an infinite loop of redirection... 
     // need to find a way to block unauthorized access to the url besides just omitting a link in the homepage?
 });
     // middleware with authentication
