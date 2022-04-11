@@ -1,0 +1,12 @@
+{
+    "rep_name": "Nate Dahlstrom",
+    "territories": ["1003", "1005"],
+    "otd_pct": 0.40,
+    "dir_pcts": {
+        "SKY": 0.20,
+        "GEN": 0.25,
+        "MET": 0.30
+    },
+    "base_salary": 80000,
+    "draw": 12000
+}
