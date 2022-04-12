@@ -13,7 +13,7 @@ repSelect.addEventListener('input',()=>{
             return response.json();
         })
         .then(data =>{
-            console.log(data); // LOGS DATA FROM JSON FILE!!!
+            console.log(data.rep_name); // LOGS DATA FROM JSON FILE!!!
         });
 
 })
