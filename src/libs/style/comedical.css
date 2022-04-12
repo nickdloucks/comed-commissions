@@ -10,3 +10,7 @@ html {
     color: #000000;
     background-color: var(--nick-lt-blue);
 }
+
+select {
+    width: 200px;
+}

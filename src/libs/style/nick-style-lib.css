@@ -145,6 +145,16 @@ a:visited{
     border-radius: 0.25rem;
 }
 
-select {
-    width: 200px;
+
+tr:nth-child(even){
+    background-color: var(--nick-dull-gold);
+}
+tr:hover{
+    background-color: var(--nick-yellow);
+}
+th{
+    padding: 10px;
+    text-align: left;
+    background-color: var(--nick-maroon);
+    color: #ffffff;
 }
