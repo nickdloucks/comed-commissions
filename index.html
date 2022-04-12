@@ -14,9 +14,9 @@
         <!-- <a href="./views/admin-login.html">Administrator Panel</a> -->
         <a class="neutral-button" style="display: block; width: 400px" href="./views/admin-dash.html">Administrator Panel</a>
         <!-- *************** move inline styling to css when you refactor the link  -->
-        <header><h1>CoMedical Commissions Statement Generator</h1></header>
+        <header><h1>CoMedical Commissions Statement Generator</h1></header><!-- *************** move inline styling to css when you refactor the link  -->
         <main>
-            <form class="grid-container">
+            <form class="grid-container" style="margin:30px">
                 <h3>Please upload Sales Tracings for specified sales rep:</h3>
                 <span id="rep-select-component">
                     <label for="sales-rep">Sales Rep.&nbsp;</label>
@@ -38,16 +38,17 @@
                 </span>
                 <span id="otd-upload-component">
                     <label for="OTD-tracings">Out the Door Tracings:&nbsp;</label>
-                    <input type="file" name="OTD-tracings">
+                    <input type="file" name="OTD-tracings" id="otd-upload">
                 </span>
                 <span id="dir-upload-component">
                     <label for="DIR-tracings">Direct Tracings:&nbsp;</label>
-                    <input type="file" name="DIR-tracings">
+                    <input type="file" name="DIR-tracings" id="dir-upload">
                 </span>
                 <!-- <input type="checkbox" name="dark-mode" id="dark-mode" value="true" checked="true"><label for="dark-mode">Dark Mode</label> -->
             </form>
-
-            <div id="statement-output"></div>
+            <a class="good-button" style="margin:40px" href="./fs_db/statements/region-20_2022-04.html">Generate Statement</a>
+            <!-- *************** move inline styling to css when you refactor the link  -->
+            <!-- <div id="statement-output"></div> -->
 
 
 
