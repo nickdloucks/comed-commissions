@@ -13,7 +13,8 @@
         <main>
             <form class="grid-container">
                 <h3>Please upload Sales Tracings for specified sales rep:</h3>
-                <label for="sales-rep">Sales Rep.</label>
+                <span id="rep-select-component">
+                    <label for="sales-rep">Sales Rep.&nbsp;</label>
                     <select class="select-box" name="sales-rep" id="rep-select">
                         <option value="erin-collins">Erin Collins</option>
                         <option value="marti-dowdy">Marti Dowdy</option>
@@ -27,10 +28,25 @@
                         <option value="mike-parker">Mike Parker</option>
                         <option value="nate-dahlstrom">Nate Dahlstrom</option>
                     </select>
-                <label for="OTD-tracings">Out the Door Tracings: </label><input type="file" name="OTD-tracings">
-                <label for="DIR-tracings">Direct Tracings: </label><input type="file" name="DIR-tracings">
+                </span>
+                <span id="otd-upload-component">
+                    <label for="OTD-tracings">Out the Door Tracings:&nbsp;</label>
+                    <input type="file" name="OTD-tracings">
+                </span>
+                <span id="dir-upload-component">
+                    <label for="DIR-tracings">Direct Tracings:&nbsp;</label>
+                    <input type="file" name="DIR-tracings">
+                </span>
                 <!-- <input type="checkbox" name="dark-mode" id="dark-mode" value="true" checked="true"><label for="dark-mode">Dark Mode</label> -->
             </form>
+
+            <div id="statement-output"></div>
+
+
+
+
+
+
             <!--<a href="./views/admin-login.html">Administrator Panel</a>-->
             <a href="./views/admin-dash.html">Administrator Panel</a>
         </main>
