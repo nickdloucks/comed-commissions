@@ -1,6 +1,7 @@
 {
     "rep_name": "Region 20",
     "territories": ["1020"],
+    "sales_team": ["SAT", "IIT"],
     "otd_pct": 1.00,
     "dir_pcts": {
         "ARG": 1.00,

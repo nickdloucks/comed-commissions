@@ -1,6 +1,7 @@
 {
     "rep_name": "Chris Birbiglia",
     "territories": ["1003"],
+    "sales_team": ["SAT"],
     "otd_pct": 0.20,
     "dir_pcts": {
         "GEN": 0.20,

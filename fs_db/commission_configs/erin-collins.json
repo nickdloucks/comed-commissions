@@ -1,6 +1,7 @@
 {
     "rep_name": "Erin Collins",
     "territories": ["1014"],
+    "sales_team": ["SAT", "IIT"],
     "otd_pct": 0.50,
     "dir_pcts": {
         "ARG": 0.50,

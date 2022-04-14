@@ -1,6 +1,7 @@
 {
     "rep_name": "Mike Parker",
     "territories": ["1015"],
+    "sales_team": ["IIT"],
     "otd_pct": 0.50,
     "dir_pcts": {
         "CON": 0.70

@@ -1,6 +1,7 @@
 {
     "rep_name": "Nick Hagarty",
     "territories": ["1012", "1013"],
+    "sales_team": ["IIT"],
     "otd_pct": {
         "30% +": 0.40,
         "25-29.99%": 0.35,
