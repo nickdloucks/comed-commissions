@@ -1,0 +1,25 @@
+{
+    "rep_name": "Erin Collins",
+    "territories": ["1014"],
+    "otd_pct": 0.50,
+    "dir_pcts": {
+        "ARG": 0.50,
+        "CON": 0.50,
+        "GEN": 0.50,
+        "INT": 0.50,
+        "MA": 0.50,
+        "MED": 0.50,
+        "MET": 0.50,
+        "MRT": 0.50,
+        "NOZ": 0.50,
+        "PMBS": 0.50,
+        "SCI": 0.50,
+        "SKY": 0.20,
+        "SPC": 0.50,
+        "TID": 0.50,
+        "UMA": 0.50,
+        "WEG": 0.50
+    },
+    "base_salary": 0,
+    "mopnthly_draw": 0
+}

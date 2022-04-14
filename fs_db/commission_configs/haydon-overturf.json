@@ -1,0 +1,17 @@
+{
+    "rep_name": "Haydon Overturf",
+    "territories": ["1002"],
+    "otd_pct": 0.20,
+    "dir_pcts": {
+        "GEN": 0.20,
+        "MA": 0.20,
+        "MET": 0.20,
+        "PMBS": 0.20,
+        "SCI": 0.20,
+        "SKY": 0.20,
+        "SPC": 0.20,
+        "WEG": 0.20
+    },
+    "base_salary": 84000,
+    "mopnthly_draw": 0
+}

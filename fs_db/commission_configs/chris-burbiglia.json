@@ -1,0 +1,17 @@
+{
+    "rep_name": "Chris Birbiglia",
+    "territories": ["1003"],
+    "otd_pct": 0.20,
+    "dir_pcts": {
+        "GEN": 0.20,
+        "MA": 0.20,
+        "MET": 0.20,
+        "PMBS": 0.20,
+        "SCI": 0.20,
+        "SKY": 0.20,
+        "SPC": 0.20,
+        "WEG": 0.20
+    },
+    "base_salary": 96000,
+    "mopnthly_draw": 11500
+}
