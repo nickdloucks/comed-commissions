@@ -3,3 +3,7 @@ build/
 dist/
 .env
 .vscode
+
+/public/build/
+
+.DS_Store
