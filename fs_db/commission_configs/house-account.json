@@ -1,0 +1,25 @@
+{
+    "rep_name": "Region 20",
+    "territories": ["1020"],
+    "otd_pct": 1.00,
+    "dir_pcts": {
+        "ARG": 1.00,
+        "CON": 1.00,
+        "GEN": 1.00,
+        "INT": 1.00,
+        "MA": 1.00,
+        "MED": 1.00,
+        "MET": 1.00,
+        "MRT": 1.00,
+        "NOZ": 1.00,
+        "PMBS": 1.00,
+        "SCI": 1.00,
+        "SKY": 1.00,
+        "SPC": 1.00,
+        "TID": 1.00,
+        "UMA": 1.00,
+        "WEG": 1.00
+    },
+    "base_salary": 0,
+    "monthly_draw": 0
+}
