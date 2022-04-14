@@ -1,0 +1,23 @@
+{
+    "rep_name": "Nick Hagarty",
+    "territories": ["1012", "1013"],
+    "otd_pct": {
+        "30% +": 0.40,
+        "25-29.99%": 0.35,
+        "20-24.99%": 0.30,
+        "< 20%": "GP OF SALE"
+    },
+    "dir_pcts": {
+        "ARG": 0.40,
+        "AXI": 0.40,
+        "CON": 0.40,
+        "INT": 0.40,
+        "MED": 0.40,
+        "MRT": 0.40,
+        "NOZ": 0.40,
+        "TID": 0.40,
+        "WIT": 0.40
+    },
+    "base_salary": 0,
+    "monthly_draw": 0
+}

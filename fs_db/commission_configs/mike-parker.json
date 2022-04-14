@@ -1,0 +1,10 @@
+{
+    "rep_name": "Mike Parker",
+    "territories": ["1015"],
+    "otd_pct": 0.50,
+    "dir_pcts": {
+        "CON": 0.70
+    },
+    "base_salary": 0,
+    "monthly_draw": 0
+}
